@@ -33,3 +33,24 @@ DeepSpaceChatBot
 
 ```bash
 pip install -r requirements.txt
+
+## 💡 使用示例
+```bash
+python main_chatbot.py
+--- 欢迎使用深空探测任务助手 ---
+您: 毅力号是在哪里登陆的
+机器人: 毅力号火星车于2021年2月18日在火星耶泽罗陨石坑成功着陆。
+您: 它为什么选那里？
+机器人: 因为那里有丰富的矿物质和水冰，是研究火星历史的理想地点。
+```
+
+## 🧩 模型说明
+
+- 检索模型：all-MiniLM-L6-v2（轻量高效）
+- 生成模型：microsoft/DialoGPT-medium（可替换为更小的模型，如 DialoGPT-small）
+
+## 🪐 未来计划
+
+- 支持多轮上下文检索
+- 接入 NASA 实时数据 API
+- Web 交互界面（Gradio / Streamlit）
