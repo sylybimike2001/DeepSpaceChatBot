@@ -33,6 +33,7 @@ DeepSpaceChatBot
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 💡 使用示例
 ```bash
